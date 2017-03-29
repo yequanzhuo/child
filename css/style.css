@@ -1,0 +1,153 @@
+*{margin: 0;padding: 0}
+html,body{
+	    height: 100%;
+        background-image: url("../V1.0/slices/bg_001.png");
+        background-repeat: repeat;
+}
+a{cursor: pointer;}
+/*最外部div*/
+.bg_in{
+	width: 1175px;
+	height: 560px;
+	min-width: 800px;
+	min-height: 560px;
+	position: absolute;
+	top: 58px;
+	left: 140px;
+}
+.bg_in img{
+	width: 1175px;
+	height: 560px;
+}
+/*logo及蓝猫*/
+.lg{
+	width: 480px;
+	height: 535px;
+	position: relative;
+	margin: 0 auto;
+}
+.logo{
+	width: 480px;
+	height: 535px;
+	position: relative;
+	z-index: 10;
+	display: none;
+}
+.cat{
+	width: 200px;
+	height: 270px;
+	position: absolute;
+	left: 140px;
+	top: 190px;
+	z-index: 5;
+	display: none;
+}
+/*导航栏*/
+.nav{
+	width: 1400px;
+    position: absolute;
+    top: 700px;
+    bottom: 55px;
+    text-align: center;
+}
+.nav ul{
+	width: 1400px;
+	height: 50px;
+	position: relative;
+	display: inline;
+}
+.nav ul li{
+	width: 45px;
+	height: 45px;
+	display: inline;
+	margin-right: 20px;
+}
+/*搜索栏*/
+form{
+	width: 223px;
+	height: 106px;
+	line-height: 106px;
+	background-image: url("../V1.0/slices/search_cloud.png");
+	position: absolute;
+	top: 25px;
+	left: 1008px;
+}
+form .search-text{
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+	margin-left: 40px;
+	z-index: 15;
+	background-image: url("../V1.0/slices/bg_001.png");
+	font-size: 20px;
+	border:none;
+	border-bottom:2px solid #ECDDD0;
+	outline: none;
+}
+form .search-button{
+    width: 15px;
+    height: 25px;
+    border: 0;
+    background-color:transparent;
+    background-image: url("../V1.0/slices/search_button.png");
+    background-size: 15px 25px;
+    position: relative;
+    z-index: 15;
+    outline: none;
+    cursor: pointer;
+}
+/*提示栏*/
+.suggest{
+	width: 120px;
+	position: absolute;
+	background-image: url("../V1.0/slices/bg_001.png");
+	border: 1px solid #ECDDD0;
+	position: absolute;
+	top: 92px;
+	left: 1045px;
+	z-index: 15;
+	display: none;
+}
+.suggest ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.suggest ul li{
+	padding: 3px;
+	font-size: 18px;
+	line-height: 25px;
+	cursor: pointer;
+}
+.suggest ul li:hover{
+	text-decoration: underline;
+	background-color: #ECDDD0;
+}
+/*左右气球*/
+.function_left{
+	width: 180px;
+	height: 240px;
+	position: absolute;
+	left: 455px;
+	bottom: 347px;
+	display: none;
+}
+.function_left img{
+	width: 180px;
+	height: 240px;
+	display: block;
+}
+.function_right{
+	width: 210px;
+	height: 280px;
+	position: absolute;
+	left: 750px;
+	top: 128px;
+	display: none;
+}
+.function_right img{
+	width: 210px;
+	height: 280px;
+	display: block;
+}

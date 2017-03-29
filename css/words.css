@@ -1,0 +1,46 @@
+html,body{
+	    height: 100%;
+        background-image: url("../V1.0/slices/bg_001.png");
+        background-repeat: repeat;
+}
+body{
+	background-image: url("../V1.0/slices/bg.png");
+}
+.outside_{
+	position: absolute;
+	top: 10%;
+	left: 15%;
+	width: 70%;
+	height: 60%;
+	border: 1px solid grey;
+	border-radius: 1%;
+	box-shadow: 5px 5px 5px grey;
+	overflow: hidden;
+}
+.outside_ img{
+	float: left;
+	width: 31%;
+	height: 40%;
+	margin: 1%;
+	margin-top: 3%;
+	border-radius: 1%;
+	box-shadow: 5px 5px 5px grey;
+}
+.outside_ div{
+	float: left;
+	width: 31%;
+	height: 40%;
+	margin: 1%;
+	margin-top: 2%;
+	border: 1px solid grey;
+	border-radius: 1%;
+	box-shadow: 5px 5px 5px grey;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 60px ;
+	line-height: 100%;
+	font-family: Microsoft YaHei;
+}
+.outside_ div p{
+	margin-top: 60px;
+}

@@ -1,0 +1,192 @@
+*{margin: 0;padding: 0}
+html,body{
+	    height: 100%;
+        background-image: url("../V1.0/slices/bg_001.png");
+        background-repeat: repeat;
+}
+a{cursor: pointer;}
+/*最外部div*/
+.bg_in{
+	width: 1175px;
+	height: 560px;
+	min-width: 800px;
+	min-height: 560px;
+	position: absolute;
+	top: 58px;
+	left: 140px;
+}
+.bg_in img{
+	width: 1175px;
+	height: 560px;
+}
+/*导航栏*/
+.nav{
+	width: 1400px;
+    position: absolute;
+    top: 700px;
+    bottom: 55px;
+    text-align: center;
+}
+.nav ul{
+	width: 1400px;
+	height: 50px;
+	position: relative;
+	display: inline;
+}
+.nav ul li{
+	width: 45px;
+	height: 45px;
+	display: inline;
+	margin-right: 20px;
+}
+/*搜索栏*/
+form{
+	width: 223px;
+	height: 106px;
+	line-height: 106px;
+	background-image: url("../V1.0/slices/search_cloud.png");
+	position: absolute;
+	top: 25px;
+	left: 1008px;
+}
+form .search-text{
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+	margin-left: 40px;
+	z-index: 15;
+	background-image: url("../V1.0/slices/bg_001.png");
+	font-size: 20px;
+	border:none;
+	border-bottom:2px solid #ECDDD0;
+	outline: none;
+}
+form .search-button{
+    width: 15px;
+    height: 25px;
+    border: 0;
+    background-color:transparent;
+    background-image: url("../V1.0/slices/search_button.png");
+    background-size: 15px 25px;
+    position: relative;
+    z-index: 15;
+    outline: none;
+    cursor: pointer;
+}
+/*提示栏*/
+.suggest{
+	width: 120px;
+	position: absolute;
+	background-image: url("../V1.0/slices/bg_001.png");
+	border: 1px solid #ECDDD0;
+	position: absolute;
+	top: 92px;
+	left: 1045px;
+	z-index: 15;
+	display: none;
+}
+.suggest ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.suggest ul li{
+	padding: 3px;
+	font-size: 18px;
+	line-height: 25px;
+	cursor: pointer;
+}
+.suggest ul li:hover{
+	text-decoration: underline;
+	background-color: #ECDDD0;
+}
+.pic{
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	top: 145px;
+	left: 870px;
+	border: 1px solid #ECDDD0;
+}
+.pic img{
+	width: 220px;
+	height: 225px; 
+	margin: 0;
+}
+
+.about{
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	top: 405px;
+	left: 870px;
+	background-image: url("../V1.0/slices/radio-1.png");
+	background-size: 250px 250px;
+}
+.ccc{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+.picture img{
+	min-width: 50px;
+	max-width: 50px;	
+	min-height: 50px;
+	max-height: 50px;
+	margin: 0;
+}
+
+
+.pic1{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.pic2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.pic3{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.pic4{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.hz{
+   position: absolute;
+   color: #AA917F;
+   top: 145px;
+   left: 355px;
+   text-align: center;
+   font-size:100px;
+}
+
+.imagin{
+   color: #C4AC9B;
+   text-align: left;
+   font-size:45px;
+   position: absolute;
+   top: 305px;
+   left: 295px;
+}
+audio{
+	width: 500px;
+	position: absolute;
+	top: 382px;
+	left: 295px;
+}
+video{
+	width: 500px;
+	height: 230px;
+	position: absolute;
+	top: 435px;
+	left: 295px;
+	border: solid 1px black;
+}

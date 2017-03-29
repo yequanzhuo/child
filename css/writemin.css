@@ -1,0 +1,139 @@
+html,body,img{
+	margin: 0;
+	padding: 0;
+}
+a{cursor: pointer;}
+.bg img{
+	width: 845px;
+	height: 480px;	
+	position: absolute;	
+	top: 65px;
+	left: 255px;
+}
+.about-word{
+	width: 740px;
+	height: 60px;
+	border: 2px solid #BCC6C7;
+	border-radius: 15px;
+	background-color: #E7D5C8;
+	position: absolute;	
+	top: 155px;
+	left: 313px;
+}
+#write{
+	width: 740px;
+	height: 35px;
+	line-height: 35px;
+	border: 2px solid #BCC6C7;
+	border-radius: 10px;
+	background-color: #E7D5C8;
+	position: absolute;
+	top: 230px;
+	left: 313px;
+}
+.inwrite{
+	width: 680px;
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+	margin-left: 20px;
+	outline: none;
+	font-size: 25px;
+	border: none;
+	background-color: #E7D5C8;
+}
+.key{
+	width: 740px;
+	height: 300px;
+	background-color: #E7D5C8;
+	border: none;
+	border-radius: 15px;
+	position: absolute;
+	left: 313px;
+	top: 280px;
+}
+.inkey{
+	width: 685;
+	height: 265px;
+	position: relative;
+	margin-top: 18px;
+	margin-left: 18px;
+}
+.line1{
+	height:27px;
+	position:relative;
+}
+.line2,.line3,.line4,.line5{
+	height:45px;
+	position:relative;
+	margin-top:3px;
+}
+.line6{
+	height:50px;
+	position:relative;
+	margin-top:3px;
+}
+.line1 img{
+	width: 47px;
+	height: 27px;
+	position: relative;
+    float: left;
+    margin-right: 3.5px;
+}
+.image{
+	width: 45px;
+	height: 45px;
+	position: relative;
+    float: left;
+    margin-right: 3.5px;
+}
+.image6{
+	width: 45px;
+	height: 50px;
+	position: relative;
+    float: left;
+    margin-right: 3.5px;
+}
+.delete{
+	width:72px;
+	height:45px;
+	float: left;
+	margin-right: 3.5px;
+}
+.tab,.cap{
+	width: 72px;
+	height: 45px;
+	float: left;
+	margin-right: 3.5px;
+}
+
+.re{
+	width: 94px;
+	height: 45px;
+	float: left;
+	margin-right: 3.5px;
+}
+.shift{
+	width:107px;
+	height: 45px;
+	float: left;
+	margin-right: 3.5px;
+}
+.space{
+	width:240px;
+	float: left;
+	margin-right: 3.5px;
+}
+.arrows{
+	height: 50px;
+	width:145px;
+	float: left;
+	margin-right: 3.5px;
+}
+.cmd{
+	width:57px;
+	height: 50px;
+	float: left;
+	margin-right: 3.5px;
+}
+
